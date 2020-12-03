@@ -14,7 +14,7 @@ function App() {
 
   const changeInput = (event) => { // setting the state onChange for input
     setinput(event.target.value);
-  };
+  }
 
   const updateTime = () => {
     // Pretty format for Time with all it's functions to check time. If I wanted to make it better I could have made Action Creators to import these functions from another page.
